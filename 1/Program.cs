@@ -15,9 +15,8 @@ WriteLine($"При возведении числа {A} в степень {B} п�
 
 int GetPow(int number1, int number2)
 {
-        int i=1;
         int result = number1;
-    for (i = 1; i < number2; i++)
+    for (int i = 1; i < number2; i++)
     {
         result= result*number1;
     }
